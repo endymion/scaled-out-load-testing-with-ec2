@@ -1,1 +1,5 @@
 *.pem
+instances.txt
+
+*.yml
+!example-artillery-script.yml

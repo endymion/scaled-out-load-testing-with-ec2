@@ -1,0 +1,13 @@
+config:
+  target: "https://example.com"
+  phases:
+    -
+      duration: 300
+      arrivalRate: 20
+      rampTo: 280
+scenarios:
+  -
+    flow:
+      -
+        get:
+          url: "/"
